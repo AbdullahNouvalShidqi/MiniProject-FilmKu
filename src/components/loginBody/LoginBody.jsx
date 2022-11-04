@@ -83,7 +83,7 @@ const LoginBody = () => {
                 });
                   
             } else{
-                alert("No data found, check you email and password");
+                alert("No data found, check your email and password");
             }
         })
     }
@@ -126,7 +126,7 @@ const LoginBody = () => {
                             }
                         </div>
                     </div>
-                    <input className={loading ? 'costum-login-button loading' : "costum-login-button"} type={'submit'} value={loading ? 'Loading, Please Wait' :  'Login'} />
+                    <input className={loading || getListLoading ? 'costum-login-button loading' : "costum-login-button"} type={'submit'} value={loading ? 'Loading, Please Wait' :  'Login'} />
                 </form>
             </div>
         </div>
