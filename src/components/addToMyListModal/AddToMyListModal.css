@@ -1,0 +1,102 @@
+.add-list-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 650px;
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.exit-button{
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.add-list-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 35px; 
+    gap: 8px;
+}
+
+.add-list-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.add-list-column label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 60px;
+    transition: 0.1s;
+}
+
+.add-list-column textarea{
+    height: 90px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.1s;
+    font-size: 16px;
+}
+
+.add-list-column textarea.hidden{
+    opacity: 0;
+}
+
+.add-list-status-rating-container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 8px;
+}
+
+.add-list-column label.hidden{
+    opacity: 0;
+}
+
+.add-list-column select{
+    padding: 1px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.add-list-costum-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.add-list-costum-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    height: 30px;
+    width: 100%;
+    margin: 0px 30px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.add-list-costum-button:hover{
+    color: white;
+    background-color: #292929;
+    transition: 0.1s;
+}

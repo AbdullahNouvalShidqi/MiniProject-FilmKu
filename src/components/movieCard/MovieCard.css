@@ -1,0 +1,79 @@
+.costum-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 180px;
+    background-color: #1D1D1D;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.costum-card:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.costum-card img{
+    width: 180px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 2px 5px;
+    bottom: 70px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.title{
+    text-align: center;
+    padding: 7px 0px 0px 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+.year{
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.no-image-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 180px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+}
+
+.no-image-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.no-image-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+}

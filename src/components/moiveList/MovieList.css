@@ -1,0 +1,25 @@
+.movielist-body{
+    margin: 6px 0px;
+}
+
+.costum-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 15px 0px;
+    gap: 20px;
+    overflow-x: scroll;
+    flex-shrink: 0;
+}
+
+.costum-title-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+}

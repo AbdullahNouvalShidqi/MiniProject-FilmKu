@@ -1,0 +1,20 @@
+.user-status-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.user-status-button:hover{
+    transform: scale(1.05);
+}
+
+.user-status-button.selected{
+    color: black;
+    background-color: white;
+}

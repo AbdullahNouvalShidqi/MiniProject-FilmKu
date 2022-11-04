@@ -1,0 +1,120 @@
+.sign-up-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../../assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.main-sub-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* height: 300px; */
+    width: 520px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+}
+
+.costum-input-container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.costum-input-container label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 70px;
+}
+
+.costum-input-container input{
+    border-radius: 20px;
+    padding: 3px 8px;
+}
+
+.signup-input-error-column{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.signup-error-message{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: #cc0000;
+}
+
+.costum-signup-button{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-top: 30px;
+}
+
+.costum-signup-button.loading{
+    background-color: gray;
+}
+
+.costum-signup-button:hover{
+    color: white;
+    background-color: #292929;
+}
+
+.signup-already-have-account{
+    padding-bottom: 20px;
+}
+
+.to-login{
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.to-login:hover{
+    color: rgb(0, 174, 255);
+}

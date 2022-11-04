@@ -1,0 +1,89 @@
+.user-data-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+    height: 300px;
+    padding: 0px 50px;
+    align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../../assets/images/user_background.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.user-main-data-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px
+}
+
+.user-username{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.user-total-movies{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.user-movie-list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px 30px;
+}
+
+.user-costum-title-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user-row-status-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-status-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0px;
+    gap: 10px;
+}
+
+.user-type-select select{
+    font-size: 16px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.user-list-cards-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-no-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}

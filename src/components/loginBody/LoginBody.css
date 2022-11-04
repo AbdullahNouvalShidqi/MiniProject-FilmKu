@@ -1,0 +1,52 @@
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* height: 210px; */
+    width: 450px;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+}
+
+.costum-login-button{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-top: 30px;
+}
+
+.costum-login-button:hover{
+    color: white;
+    background-color: #292929;
+}
+
+.costum-login-button.loading{
+    background-color: gray;
+}
+
+.login-input-error-column{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.login-error-message{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: #cc0000;
+}

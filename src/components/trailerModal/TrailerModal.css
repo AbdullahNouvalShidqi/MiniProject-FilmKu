@@ -1,0 +1,33 @@
+.trailer-modal-costum-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.trailer-no-videos-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    height: 400px;
+    width: 700px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.trailer-no-videos-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.trailer-no-videos-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}

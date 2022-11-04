@@ -1,0 +1,39 @@
+.costum-sidebar{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    width: 262px;
+    background-color: #1C1C1C;
+    transition: 0.5s;
+}
+
+.costum-sidebar.hidden{
+    left: -100%;
+    transition: 0.5s;
+}
+
+.costum-sidebar-item{
+    cursor: pointer;
+    border-bottom: white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    width: 100%;
+    background-color: #1d1d1d;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+
+.costum-sidebar-item:hover{
+    color: #1d1d1d;
+    background-color: white;
+}
+
+.costum-sidebar-item.selected{
+    color: #1d1d1d;
+    background-color: white;
+}

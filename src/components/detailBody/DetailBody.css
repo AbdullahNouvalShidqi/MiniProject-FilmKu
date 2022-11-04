@@ -1,0 +1,101 @@
+.detail-costum-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 15px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.detail-costum-container img {
+    height: 450px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.detail-data-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 390px;
+}
+
+.detail-data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.detail-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.detail-overview{
+    font-size: 16px;
+    padding-top: 20px;
+    width: 800px;
+}
+
+.detail-release-date{
+    padding-top: 20px;
+}
+
+.detail-vote-rating{
+    padding-top: 20px;
+}
+
+.detail-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.detail-button{
+    height: 42px;
+    width: 150px;
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.detail-button.added{
+    background-color: rgb(26, 158, 0);
+    color: white;
+}
+
+.detail-button.added:hover{
+    background-color: white;
+    color: black;
+}
+
+.detail-button:hover{
+    color: white;
+    background-color: #292929;
+    transition: 0.1s;
+}
+
+.modal-costum-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.detail-list-container{
+    margin: 0px 40px ;
+}
