@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# F8lmKu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project that are made with an idea of a simple version of any movie/series app, for the people that one simplicity
 
-## Available Scripts
+## Mini Project
 
-In the project directory, you can run:
+Mini project ini dikerjakan untuk memenuhi tugas yang telah diberikan alterra untuk mendapatkan nilai dari mentor, dan juga sebagai ide sebagaimana hal-hal baru yang bisa kita buat dengan menggunakan React JS yang baru saya pelajari.
 
-### `npm start`
+### Tampilan Home
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tampilan Home berisikan list movie/series berdasarkan menu tab yang dipilih movie/series yang dibagi menjadi tiga tipe bagian, yaitu Popular, Top, dan juga upcoming. Dapat dilihat pada foto berikut untuk bagian home dari aplikasi.\
+[](./screenshot/HomePage.png);
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tampilan detail
 
-### `npm test`
+Pada detail user disini bisa melihat tampilan poster dan backdrop, lalu user juga bisa melihat trailer dalam bentuk modal pada saat user mengklik watch trailer yang berada pada bagian sebalah poster, lalu user juga bisa menambahkan movie/serie tersebut kedalam sebuah list pada user yang sudah memiliki akun.\
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Berikut adalah foto dari tampilan detail.\
+![](./screenshot/DetailPage.png)\
 
-### `npm run build`
+Dan berikut merupakan tampilan saat user mengklik Watch Trailer.\
+![](./screenshot/DetailPageTrailerModal.png)\
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Lalu pada bagian berikut tampilan modal pada saat user ingin memasukkan movie/series kedalam list.\
+![](./screenshot/DetailPageAddListModal.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Userpage
 
-### `npm run eject`
+Halaman user ini dibuat untuk user dapat melihat list-list movie/series yang telah user tambahkan kepada akun yang terdaftar, dibagian ini juga, user bisa update status dari movie/series yang berada pada di list, dan juga bisa menghapus movie/serie yang sudah ditambahkan kedalam list oleh user.\
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Berikut adalah tampilan dari userpage.\
+![](./screenshot/UserPage.png)\
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Berikut adalah gambaran user saat mau delete list.\
+![](./screenshot/userPageDeleteModal.png)\
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Berikut adalah tampilan dari user jika ingin update status ataupun review yang telah dimasukkan.\
+![](./screenshot/userPageUpdateModal.png)
