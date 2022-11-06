@@ -37,3 +37,6 @@ Berikut adalah gambaran user saat mau delete list.\
 
 Berikut adalah tampilan dari user jika ingin update status ataupun review yang telah dimasukkan.\
 ![](./screenshot/userPageUpdateModal.png)
+
+### Link to application
+Untuk link sendiri dapat di akses di [https://mini-project-film-ku.vercel.app/](https://mini-project-film-ku.vercel.app/)
