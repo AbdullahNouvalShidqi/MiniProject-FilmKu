@@ -1,4 +1,4 @@
-# F8lmKu
+# FilmKu
 
 The project that are made with an idea of a simple version of any movie/series app, for the people that one simplicity
 
