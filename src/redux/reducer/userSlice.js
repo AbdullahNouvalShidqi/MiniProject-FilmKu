@@ -19,9 +19,6 @@ const userSlice = createSlice({
         setUserList(state, action){
             state.userList = action.payload;
         },
-        addUserList(state, action){
-            state.userList = [...state.userList, action.payload]
-        },
         logOut(state){
             state.isLoggedIn = false;
             state.userData = {
